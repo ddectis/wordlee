@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Factory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>&#11088; &#129513; Yay Puzzles!&#129513; &#11088;</h1>
+    <div class="container" id="container">
+        <label for="playerGuess" id="playerGuessLabel">LOADING...</label>
+        <input type="text" id="playerGuess" name="playerGuess" placeholder="Enter your guess">
+        <button id="checkGuessButton">Check Guess</button>
+        
+        <p id="guessAlert"></p>
+        <div class="guesses-container" id="guessesContainer">
+            <div class="guess-result" id="guessResult"></div>
+        </div>
+        <button class="hide" id="capitulate-button">No ideas? Click to Capitulate</button>
+        
+    </div>
+    <div class="keyboard" id="keyboard">
+            <p>Previously used letters</p>
+        <div class="top-row" id="top-row">
+            <div class="key" id="q">Q</div>
+            <div class="key" id="w">W</div>
+            <div class="key" id="e">E</div>
+            <div class="key" id="r">R</div>
+            <div class="key" id="t">T</div>
+            <div class="key" id="y">Y</div>
+            <div class="key" id="u">U</div>
+            <div class="key" id="i">I</div>
+            <div class="key" id="o">O</div>
+            <div class="key" id="p">P</div>
+        </div>
+    
+        <div class="middle-row" id="middle-row">
+            <div class="key" id="a">A</div>
+            <div class="key" id="s">S</div>
+            <div class="key" id="d">D</div>
+            <div class="key" id="f">F</div>
+            <div class="key" id="g">G</div>
+            <div class="key" id="h">H</div>
+            <div class="key" id="j">J</div>
+            <div class="key" id="k">K</div>
+            <div class="key" id="l">L</div>
+        </div>
+    
+        <div class="bottom-row" id="bottom-row">
+            <div class="key" id="z">Z</div>
+            <div class="key" id="x">X</div>
+            <div class="key" id="c">C</div>
+            <div class="key" id="v">V</div>
+            <div class="key" id="b">B</div>
+            <div class="key" id="n">N</div>
+            <div class="key" id="m">M</div>
+            <div class="key" id="back"><img src='backspace.svg' alt='backspace'></div>
+            
+        </div>
+    </div>
+
+    
+
+</body>
+
+    <script src="index.js"></script> 
+</body>
+</html>
+
+

@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #88c397;
+    color: #343434;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  ul, ol {
+    list-style: none;
+    padding: 0;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .container{
+    outline: 1px solid;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px 1px #343434;
+    width: 80%;
+  }
+
+  label{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  input{
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  button{
+    border-radius: 5px;
+    margin-block: 10px;
+    box-shadow: 3px 4px 5px 0px #343434;
+  }
+
+  .guess-count{
+    display: flex;
+    align-items: center;
+    padding-inline: 5px;
+  }
+
+  .guesses-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guess-result{
+    display: flex;
+    flex-direction: row;
+    margin-block: 2px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 600px;
+    margin:10px
+  }
+
+  .letter-outcome{
+    outline: 1px solid;
+    height: 2em;
+    width: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .letter-match{
+    background-color: rgb(201, 255, 147) !important;
+  }
+
+  .letter-almost{
+    background-color: rgb(255, 234, 112) !important; 
+  }
+
+  .letter-not-present{
+    background-color: #7c7c7c !important;
+  }
+
+  .keyboard{
+    width: 95%;
+    margin-top: 20px;
+    display: f;
+    text-align: center;
+    max-width: 500px;
+  }
+
+
+  .key {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px black;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: center;
+}
+
+#capitulate-button{
+  padding: 10px;
+  
+}
+
+.hide{
+  display: none;
+}
+  
