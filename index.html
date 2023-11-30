@@ -11,16 +11,16 @@
     <div class="container" id="container">
         <label for="playerGuess" id="playerGuessLabel">LOADING...</label>
         <input type="text" id="playerGuess" name="playerGuess" placeholder="Enter your guess">
-        <button id="checkGuessButton">Check Guess</button>
         
-        <p id="guessAlert"></p>
+        
+        <p id="guessAlert">Guess Length: 0</p>
+        <button class="hide" id="capitulate-button">Out of ideas? Click to Capitulate</button>
         <div class="guesses-container" id="guessesContainer">
             <div class="guess-result" id="guessResult"></div>
         </div>
-        <button class="hide" id="capitulate-button">No ideas? Click to Capitulate</button>
         
-    </div>
-    <div class="keyboard" id="keyboard">
+        
+        <div class="keyboard" id="keyboard">
             <p>Previously used letters</p>
         <div class="top-row" id="top-row">
             <div class="key" id="q">Q</div>
@@ -58,7 +58,11 @@
             <div class="key" id="back"><img src='backspace.svg' alt='backspace'></div>
             
         </div>
+        </div>    
+        <button id="checkGuessButton">Check Guess</button>
+        
     </div>
+    
 
     
 

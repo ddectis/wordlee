@@ -41,13 +41,17 @@ document.body.addEventListener('keypress', function(event){
 })
 
 const updatePrintedGuessLength = event => {
-    if (event.key !== "Enter"){
-        guessAlert.innerText = "Guess Length: " + guessField.value.length    
-    }
+    guessAlert.innerText = "Guess Length: " + guessField.value.length   
     
 }
 
-inputField.addEventListener('keyup',updatePrintedGuessLength)
+inputField.addEventListener('keyup', function(event){
+    if (event.key !== "Enter"){
+        updatePrintedGuessLength
+    }
+    
+    }
+)
 
 
 const submitGuess = async () =>{     
